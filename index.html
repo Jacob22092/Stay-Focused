@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stay Focused</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="timer">
+            <svg class="progress-ring" width="300" height="300">
+                <circle class="progress-ring__circle" stroke="blue" stroke-width="4" fill="transparent" r="140" cx="150" cy="150" />
+            </svg>
+            <div id="time-display">00:00</div>
+        </div>
+    </div>
+    <div class="controls">
+        <div class="time-setting">
+            <label for="minutes">Minutes:</label>
+            <input type="number" id="minutes" placeholder="00" min="0">
+            <label for="seconds">Seconds:</label>
+            <input type="number" id="seconds" placeholder="00" min="0" max="59">
+        </div>
+        <button id="start-button">Start</button>
+    </div>
+    <div class="powered-by">
+        <p>Powered by J.H</p>
+        <img src="https://avatars.githubusercontent.com/u/42213414?s=400&u=5e5a6d95ff9940307882a67d22a50894c046f8b5&v=4" alt="Jakub Hyziak" class="profile-pic">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
